@@ -1,0 +1,21 @@
+main: xyz.amtstl.za.ZAPlugin
+name: ZAPlugin
+version: 0.5
+author: Alex
+description: Proprietary plugin for ZA
+commands:
+   alertadmin:
+    description: An example command
+    usage: /alertadmin <message to admin>
+    permission: ZAPlugin.lobby
+    permission-message: You don't have permission.
+   fireworks:
+    description: Lobby Fireworks
+    usage: /fireworks
+    permission: ZAPlugin.fireworks
+    permission-message: You don't have permission.
+   ops:
+    description: op commands
+    usage: /ops <playername> <command>
+    permission: ZAPlugin.ops
+    permission-message: You don't have permission.
